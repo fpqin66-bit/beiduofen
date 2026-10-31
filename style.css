@@ -5,3 +5,27 @@
 .vocabulary-list{list-style:none;padding:0;margin:22px 0}.vocabulary-list li{background:#fffdf8;border:1px solid #eee5d6;border-radius:20px;padding:16px;margin:12px 0}.list-english{display:flex;gap:12px;align-items:baseline;margin-bottom:12px}.list-english strong{font-size:22px;overflow-wrap:anywhere;min-width:0}.meaning{width:100%;text-align:left;background:#e2f0e7;min-height:52px;overflow-wrap:anywhere}.meaning.masked{background:repeating-linear-gradient(135deg,#e3eaf0,#e3eaf0 8px,#edf2f6 8px,#edf2f6 16px);color:#658394;font-size:14px}
 
 .hint-button{display:block;margin:8px auto 0;background:#fff0d2;color:#86602f;min-height:48px}.word-hint{background:#fff4dc;border-radius:16px;padding:16px;text-align:left;font-size:15px;line-height:1.8;color:#795e38;margin-bottom:0}
+
+/* Secondary hint action retains a comfortable touch target. */
+.hint-button{font-size:12px;font-weight:500;color:#8b795c;background:transparent;padding:8px 12px;margin:0 auto;min-height:48px}
+.choice-translation{display:block;font-size:13px;font-weight:500;color:#6b858d;margin:5px 0 0 28px;overflow-wrap:anywhere}
+.practice{padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))}
+.practice #next:not(:empty){position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:480px;padding:10px 20px calc(12px + env(safe-area-inset-bottom,0px));background:#fff8ec;box-shadow:0 -5px 18px #354e5510;z-index:10}
+.practice #next button{margin:0;min-height:52px}
+.practice .top{gap:8px}.practice .top small{text-align:right}
+@media(max-width:480px){
+ main{padding:16px 16px 32px}
+ .practice{padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))}
+ .practice .card{padding:14px 16px;margin:12px 0}
+ .practice .word{font-size:28px;margin:12px 0 6px}
+ .practice .card p.muted{margin:6px 0}
+ .practice .sound{margin:6px;min-height:48px;padding:10px 14px}
+ .practice .choices{gap:8px}
+ .practice .choices button{padding:10px 12px;min-height:48px;overflow-wrap:anywhere}
+ .practice .tiles{gap:6px}.practice .tiles button{min-width:48px;min-height:48px;padding:10px;font-size:18px}
+ .practice .answer{min-height:56px;margin-bottom:10px}
+ .practice .answer button{font-size:18px}
+ .practice .feedback{padding:8px;min-height:40px;font-size:14px}
+ .practice .word-hint{padding:10px;font-size:14px}
+ .practice #next:not(:empty){padding-left:16px;padding-right:16px}
+}
