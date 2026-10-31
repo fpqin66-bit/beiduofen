@@ -22,7 +22,7 @@ jobs:
       - name: Prepare static website
         run: |
           mkdir -p _site
-          cp index.html app.js data.js style.css _site/
+          cp index.html app.js data.js hints.js style.css _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

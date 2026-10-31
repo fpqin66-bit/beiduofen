@@ -3,3 +3,5 @@
 .unit .unit-title{display:block;font-size:32px;font-weight:900;letter-spacing:1px;color:#3d7387;margin:8px 0}.unit strong{font-size:15px}.tiles button{min-width:58px;font-size:21px}.answer button{font-size:21px;min-width:48px}
 
 .vocabulary-list{list-style:none;padding:0;margin:22px 0}.vocabulary-list li{background:#fffdf8;border:1px solid #eee5d6;border-radius:20px;padding:16px;margin:12px 0}.list-english{display:flex;gap:12px;align-items:baseline;margin-bottom:12px}.list-english strong{font-size:22px;overflow-wrap:anywhere;min-width:0}.meaning{width:100%;text-align:left;background:#e2f0e7;min-height:52px;overflow-wrap:anywhere}.meaning.masked{background:repeating-linear-gradient(135deg,#e3eaf0,#e3eaf0 8px,#edf2f6 8px,#edf2f6 16px);color:#658394;font-size:14px}
+
+.hint-button{display:block;margin:8px auto 0;background:#fff0d2;color:#86602f;min-height:48px}.word-hint{background:#fff4dc;border-radius:16px;padding:16px;text-align:left;font-size:15px;line-height:1.8;color:#795e38;margin-bottom:0}
